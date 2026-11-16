@@ -1,3 +1,4 @@
+import math
 def sumar(a, b):              # Define la función para sumar.
     return a + b              # Devuelve la suma de los operandos.
 
@@ -11,3 +12,6 @@ def dividir(a, b):            # Define la división.
     if b == 0:                # Comprueba que el divisor no sea cero.
         raise ValueError("No se puede dividir entre cero")
     return a / b              # Devuelve el cociente.
+
+def seno(angulo):
+    return math.sin(math.radians(angulo))
